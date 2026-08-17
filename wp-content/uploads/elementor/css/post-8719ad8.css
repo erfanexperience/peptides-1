@@ -1,0 +1,279 @@
+.elementor-widget-container .eael-protected-content-message{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );letter-spacing:var( --e-global-typography-secondary-letter-spacing );}.elementor-widget-container .protected-content-error-msg{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );letter-spacing:var( --e-global-typography-secondary-letter-spacing );}.elementor-871 .elementor-element.elementor-element-6ea5cf5{--display:flex;--margin-top:20px;--margin-bottom:20px;--margin-left:0px;--margin-right:0px;}.elementor-widget-heading .eael-protected-content-message{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );letter-spacing:var( --e-global-typography-secondary-letter-spacing );}.elementor-widget-heading .protected-content-error-msg{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );letter-spacing:var( --e-global-typography-secondary-letter-spacing );}.elementor-widget-heading .elementor-heading-title{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );letter-spacing:var( --e-global-typography-primary-letter-spacing );color:var( --e-global-color-primary );}.elementor-871 .elementor-element.elementor-element-47873b8{text-align:center;}.elementor-871 .elementor-element.elementor-element-47873b8 .elementor-heading-title{font-family:"Alumni Sans", Sans-serif;font-size:50px;font-weight:700;color:var( --e-global-color-primary );}.elementor-widget-shortcode .eael-protected-content-message{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );letter-spacing:var( --e-global-typography-secondary-letter-spacing );}.elementor-widget-shortcode .protected-content-error-msg{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );letter-spacing:var( --e-global-typography-secondary-letter-spacing );}@media(max-width:1024px){.elementor-widget-container .eael-protected-content-message{letter-spacing:var( --e-global-typography-secondary-letter-spacing );}.elementor-widget-container .protected-content-error-msg{letter-spacing:var( --e-global-typography-secondary-letter-spacing );}.elementor-871 .elementor-element.elementor-element-6ea5cf5{--margin-top:20px;--margin-bottom:0px;--margin-left:0px;--margin-right:0px;}.elementor-widget-heading .eael-protected-content-message{letter-spacing:var( --e-global-typography-secondary-letter-spacing );}.elementor-widget-heading .protected-content-error-msg{letter-spacing:var( --e-global-typography-secondary-letter-spacing );}.elementor-widget-heading .elementor-heading-title{letter-spacing:var( --e-global-typography-primary-letter-spacing );}.elementor-widget-shortcode .eael-protected-content-message{letter-spacing:var( --e-global-typography-secondary-letter-spacing );}.elementor-widget-shortcode .protected-content-error-msg{letter-spacing:var( --e-global-typography-secondary-letter-spacing );}}@media(max-width:767px){.elementor-widget-container .eael-protected-content-message{letter-spacing:var( --e-global-typography-secondary-letter-spacing );}.elementor-widget-container .protected-content-error-msg{letter-spacing:var( --e-global-typography-secondary-letter-spacing );}.elementor-871 .elementor-element.elementor-element-6ea5cf5{--margin-top:0px;--margin-bottom:0px;--margin-left:0px;--margin-right:0px;}.elementor-widget-heading .eael-protected-content-message{letter-spacing:var( --e-global-typography-secondary-letter-spacing );}.elementor-widget-heading .protected-content-error-msg{letter-spacing:var( --e-global-typography-secondary-letter-spacing );}.elementor-widget-heading .elementor-heading-title{letter-spacing:var( --e-global-typography-primary-letter-spacing );}.elementor-widget-shortcode .eael-protected-content-message{letter-spacing:var( --e-global-typography-secondary-letter-spacing );}.elementor-widget-shortcode .protected-content-error-msg{letter-spacing:var( --e-global-typography-secondary-letter-spacing );}}/* Start custom CSS for shortcode, class: .elementor-element-745c76b */.pdf-embeds {
+  display: grid;
+  grid-template-columns: repeat(3, 400px); /* Crea dos columnas con igual ancho */
+  gap: 10px; /* Espacio entre los elementos */
+  justify-content: center; /* Centra las columnas horizontalmente */
+}
+
+.pdf-item {
+  /* Estilos adicionales para cada elemento si lo deseas */
+  padding: 10px;
+}
+
+.image-coa{
+    width: 100% !important;
+    justify-content: center !important;
+}
+/*
+code img
+*/
+.image-embeds {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Tres columnas, cada una toma un 1fr (fracción) del espacio disponible */
+  gap: 20px; /* Espacio entre los elementos */
+  justify-items: center; /* Centra los elementos dentro de las celdas */
+  align-items: start; /* Alinea los elementos en la parte superior de cada celda */
+}
+
+.image-item {
+  padding: 15px;
+  border: 1px solid #ddd; /* Añadir borde para una mejor visualización */
+  border-radius: 8px; /* Bordes redondeados */
+  background-color: #fff; /* Fondo gris claro */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor del elemento */
+  transition: transform 0.3s ease; /* Efecto de transición para cuando pasa el ratón */
+}
+
+.pdf-item:hover {
+  transform: translateY(-5px); /* Levanta el elemento ligeramente cuando el ratón pasa sobre él */
+}
+
+.pdf-item img {
+  width: 100%; /* Hacer que las imágenes se adapten al contenedor */
+  height: auto;
+  border-radius: 4px; /* Bordes redondeados para las imágenes */
+}
+
+/*
+end code img
+*/
+@media only screen and (min-width: 550px) and (max-width: 980px)
+{
+    .pdf-embeds {
+    display: block !important; /* Cambiar a bloque para eliminar el comportamiento de flex */
+    gap: 20px !important; /* Espacio entre elementos (puedes eliminar si no es necesario) */
+}
+.pdf-item {
+    width: 100% !important; /* Cada elemento ocupa todo el ancho */
+    box-sizing: border-box !important; /* Asegura que el padding no afecte el ancho total */
+    margin-bottom: 20px !important; /* Espacio inferior entre elementos */
+    page-break-inside: avoid !important; /* Evita que los elementos se dividan entre páginas */
+}
+
+.image-embeds {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Tres columnas, cada una toma un 1fr (fracción) del espacio disponible */
+  gap: 20px; /* Espacio entre los elementos */
+  justify-items: center; /* Centra los elementos dentro de las celdas */
+  align-items: start; /* Alinea los elementos en la parte superior de cada celda */
+}
+
+.image-item {
+  padding: 15px;
+  border: 1px solid #ddd; /* Añadir borde para una mejor visualización */
+  border-radius: 8px; /* Bordes redondeados */
+  background-color: #fff; /* Fondo gris claro */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor del elemento */
+  transition: transform 0.3s ease; /* Efecto de transición para cuando pasa el ratón */
+}
+
+.pdf-item:hover {
+  transform: translateY(-5px); /* Levanta el elemento ligeramente cuando el ratón pasa sobre él */
+}
+
+.pdf-item img {
+  width: 100%; /* Hacer que las imágenes se adapten al contenedor */
+  height: auto;
+  border-radius: 4px; /* Bordes redondeados para las imágenes */
+}
+
+}
+@media only screen and (max-width: 549px)
+{
+    .pdf-embeds {
+    display: block !important; /* Cambiar a bloque para eliminar el comportamiento de flex */
+    gap: 20px !important; /* Espacio entre elementos (puedes eliminar si no es necesario) */
+}
+.pdf-item {
+    width: 100% !important; /* Cada elemento ocupa todo el ancho */
+    box-sizing: border-box !important; /* Asegura que el padding no afecte el ancho total */
+    margin-bottom: 20px !important; /* Espacio inferior entre elementos */
+    page-break-inside: avoid !important; /* Evita que los elementos se dividan entre páginas */
+}
+}
+
+.image-embeds {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) !important; 
+  gap: 10px; /* Espacio entre los elementos */
+  justify-items: center; /* Centra los elementos dentro de las celdas */
+  align-items: start; /* Alinea los elementos en la parte superior de cada celda */
+}
+
+.image-item {
+  padding: 10px;
+  border: 1px solid #ddd; /* Añadir borde para una mejor visualización */
+  border-radius: 8px; /* Bordes redondeados */
+  background-color: #fff; /* Fondo gris claro */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor del elemento */
+  transition: transform 0.3s ease; /* Efecto de transición para cuando pasa el ratón */
+}
+
+.pdf-item:hover {
+  transform: translateY(-5px); /* Levanta el elemento ligeramente cuando el ratón pasa sobre él */
+}
+
+.pdf-item img {
+  width: 100%; /* Hacer que las imágenes se adapten al contenedor */
+  height: auto;
+  border-radius: 4px; /* Bordes redondeados para las imágenes */
+}
+
+
+.pdf-filter-form {
+    width: 80% !important;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pdf-filter-form select,
+.pdf-filter-form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #013365;
+}
+
+.filter-btn {
+    background-color: #0073aa;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.filter-btn:hover {
+    background-color: #005f8d;
+}
+
+.pdf-embeds {
+    margin-top: 20px;
+}
+
+.pdf-item {
+    background-color: #fff;
+    border: 1px solid #eee;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.pdf-item h4 {
+    margin-bottom: 10px;
+    color: #013365;
+}
+
+.pdf-item h4:hover{
+    margin-bottom: 10px;
+    color: #F2925D;
+}
+
+
+.filter-select {
+    width: 100% !important;
+}
+
+.filter-date {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    color: #333;
+    background-color: #fff;
+}
+
+/* Estilos responsivos para tabletas y móviles */
+@media screen and (max-width: 768px) {
+    .pdf-filter-form {
+        padding: 15px;
+        max-width: 100% !important; /* Ocupar todo el ancho en móviles */
+    }
+
+    .pdf-filter-form select,
+    .pdf-filter-form input[type="date"],
+    .filter-btn {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .filter-btn {
+        padding: 8px 16px;
+    }
+
+    .pdf-item {
+        padding: 12px;
+    }
+    .select2-container{
+    width: 100% !important
+}
+
+}
+
+@media screen and (max-width: 480px) {
+    .image-embeds {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr) !important; 
+  justify-items: center; /* Centra los elementos dentro de las celdas */
+  align-items: start; /* Alinea los elementos en la parte superior de cada celda */
+}
+    .pdf-filter-form {
+        padding: 10px;
+    }
+
+    .pdf-filter-form select,
+    .pdf-filter-form input[type="date"],
+    .filter-btn {
+        font-size: 13px;
+        padding: 7px;
+    }
+
+    .filter-btn {
+        padding: 7px 14px;
+    }
+
+    .pdf-item {
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+}
+
+.woocommerce-js .select2-results__option, .woocommerce-js .select2-search--dropdown .select2-search__field {
+    padding: 6px .75em;
+    color: #000;
+}
+
+
+.woocommerce-js .select2-container .select2-selection--single, .woocommerce-js select, .woocommerce-page .select2-container .select2-selection--single, .woocommerce-page select{
+    margin-bottom: 10px !important;
+}
+.select2-container{
+    width: 100% !important
+}/* End custom CSS */

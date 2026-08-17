@@ -1,0 +1,20 @@
+/**
+ * Debug Mode Styles
+ */
+#dscpw-debug{padding:0 0 0;font-size:1em;margin-bottom:20px;}
+#dscpw-debug #dscpw-debug-header{background:#3d9cd2;color:#ffffff;padding:10px 20px;cursor:pointer;position:relative;}
+#dscpw-debug #dscpw-debug-header .dscpw-debug-toggle{background-image:url("../images/arrow.svg");background-repeat:no-repeat;background-position:right center;width:42px;height:100%;right:0;top:0;background-size:42px;position:absolute;-webkit-transition:.3s all;-o-transition:.3s all;transition:.3s all;}
+#dscpw-debug.closed .dscpw-debug-toggle{-webkit-transform:rotate(-90deg);-ms-transform:rotate(-90deg);transform:rotate(-90deg);}
+#dscpw-debug #dscpw-debug-contents{padding:20px 20px 0;display:none;border:1px solid #3d9cd2;border-width:0 1px 1px;}
+#dscpw-debug #dscpw-debug-contents .dscpw-debug-info{color:#6d6d6d;background:url("../images/info.svg") no-repeat left 5px;background-size:16px 16px;padding-left:22px;font-style:italic;}
+#dscpw-debug #dscpw-debug-contents h3{margin:10px 0 20px;font-weight:bold;font-size:1.2em;}
+#dscpw-debug #dscpw-debug-contents h3.ruleset-title{font-size:1em;}
+#dscpw-debug #dscpw-debug-contents h3.ruleset-title a span.ruleset-url-text{background:url(../images/open-in-browser.svg) no-repeat right 3px;background-size:16px 15px;padding-right:18px;}
+#dscpw-debug #dscpw-debug-contents h3.ruleset-title a{font-weight:bold;background:#008000;color:#fff;text-decoration:unset;padding:5px 10px;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;-o-border-radius:4px;}
+#dscpw-debug .dscpw-debug-result-label{padding:5px;border-radius:3px;color:#ffffff;font-weight:bold;text-transform:uppercase;font-size:12px;}
+#dscpw-debug .dscpw-debug-result-label.dscpw-debug-result-label-pass,#dscpw-debug .dscpw-debug-result-label.dscpw-debug-result-label-1{background:#008000;}
+#dscpw-debug .dscpw-debug-result-label.dscpw-debug-result-label-fail,#dscpw-debug .dscpw-debug-result-label.dscpw-debug-result-label-{background:#c92a2a;}
+#dscpw-debug table.dscpw-debug-table{border:1px solid #e4e4e4;margin:0 0 20px;}
+#dscpw-debug table.dscpw-debug-table.dscpw-debug-table-fixed{table-layout:fixed;}
+#dscpw-debug table.dscpw-debug-table td,#dscpw-debug table.dscpw-debug-table th{padding:8px 14px;text-align:left;}
+#dscpw-debug table.dscpw-debug-table td.align-right,#dscpw-debug table.dscpw-debug-table th.align-right{text-align:right;}

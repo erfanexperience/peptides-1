@@ -1,0 +1,287 @@
+#gens-referral_share__email input[type='email'].error,
+input[type='email'].gens-raf-guest-email.error {
+    border: 1px solid red !important;
+}
+#gens-referral_share__email {
+    margin-bottom: 0;
+}
+#gens-referral_share__email .gens-referral_share__email__inputs {
+    display: flex;
+    flex-direction: column;
+}
+#gens-referral_share__email a {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    text-decoration: none !important;
+    color: #fff;
+    background-color: #000;
+    width: 18px;
+    height: 18px;
+    border-radius: 2px;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 16px;
+    outline: none;
+    text-decoration: none;
+}
+#gens-referral_share__email #js--gens-email-remove {
+    right: 24px;
+}
+.gens-copied-icon {
+    display: none;
+}
+.gens-referral_stats {
+    overflow: hidden;
+    min-height: 18px;
+    margin-bottom: 35px;
+    line-height: 18px;
+}
+.gens-referral_stats > div {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 18px;
+    float: left;
+    background-color: #f3f3f3;
+    font-weight: 600;
+}
+.gens-referral_stats div:first-child {
+    background-color: #333;
+    color: #fff;
+    font-weight: 600;
+}
+
+.gens-refer-a-friend--generate {
+    max-width: 1024px;
+    margin: 24px 0;
+}
+/* Default state: hide both sections to prevent flash of content */
+.gens-refer-a-friend--guest {
+    display: none;
+}
+.gens-refer-a-friend--generate {
+    display: none;
+}
+
+/* JavaScript-controlled visibility */
+.gens-refer-a-friend--guest.raf-show-guest {
+    display: block;
+}
+.gens-refer-a-friend--generate.raf-show-generate {
+    display: block;
+}
+
+/* Modern Template */
+.gens-raf-submit-success {
+    display: none;
+}
+.gens-raf-submit-success div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: #73c050;
+    width: 100%;
+    padding: 11px 0;
+}
+.gens-raf-two-columns {
+    display: flex;
+    /* align-items: center; */
+    margin: auto;
+    max-width: 1024px;
+    gap: 24px;
+}
+
+.gens-raf-body {
+    flex-shrink: 0;
+    max-width: 460px;
+    width: 100%;
+}
+.gens-raf-text {
+    padding: 0 0 24px 0;
+}
+
+.gens-raf-text img {
+    max-width: 100%;
+}
+
+.gens-raf-text h2 {
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.gens-raf-text p {
+    margin-bottom: 0;
+}
+
+.gens-raf-reward {
+    padding: 16px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    background-color: #e7f2ff;
+    color: #2560ff;
+    font-size: 16px;
+}
+
+.gens-raf-reward > div {
+    display: flex;
+    align-items: center;
+}
+
+.gens-raf-reward div span {
+    display: inline-block;
+    margin-left: 12px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.gens-raf-reward > span {
+    display: inline-block;
+    margin: 6px 24px;
+    border-right: 1px solid #2560ff;
+    opacity: 0.3;
+}
+
+.gens-raf-modern-template .gens-raf-field {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 18px 0;
+}
+
+.gens-raf-modern-template .gens-raf-field input,
+.gens-raf-modern-template .gens-raf-field button {
+    width: 100%;
+    background-color: #f2f5f7;
+    border: 1px solid #ddd;
+    box-shadow: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 0 12px;
+    line-height: 46px;
+    height: 46px;
+}
+.gens-raf-modern-template .gens-raf-field input {
+    padding-right: 46px;
+}
+.gens-raf-modern-template .gens-raf-field--email input {
+    margin-bottom: 5px;
+}
+.gens-raf-modern-template .gens-raf-field input[type='submit'],
+.gens-raf-modern-template .gens-raf-field button {
+    border: 0;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+.gens-raf-modern-template .gens-raf-field input[type='submit']:hover,
+.gens-raf-modern-template .gens-raf-field button:hover {
+    opacity: 0.85;
+}
+
+.gens-raf-modern-template .gens-raf-field .gens-raf-send-emails {
+    margin-bottom: 0;
+    border-radius: 8px;
+}
+
+.gens-raf-modern-template .gens-raf-field label {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.gens-raf-modern-template .gens-raf-field--input svg {
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    right: 12px;
+}
+.gens-raf-modern-template .gens-raf-field--input .gens-copy-icon:hover {
+    opacity: 0.5;
+}
+.gens-raf-modern-template .gens-referral_share {
+    display: flex;
+    gap: 12px;
+}
+.gens-raf-modern-template .gens-referral_share a {
+    box-sizing: border-box;
+    padding: 12px;
+    background-color: #f2f5f7;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 48px;
+    max-width: 48px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+.gens-raf-modern-template .gens-referral_share a:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 667px) {
+    .gens-referral_share {
+        display: block;
+    }
+    .gens-referral_share .gens-referral_share__wade {
+        display: none !important;
+    }
+    .gens-raf-two-columns {
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 667px) {
+    .gens-referral_share__wa,
+    .gens-referral_share__msg {
+        display: none !important;
+    }
+}
+
+.raf-modal {
+    position: fixed;
+    z-index: 999999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 24px 12px 24px;
+}
+
+.raf-modal-content {
+    position: relative;
+    background-color: #fefefe;
+    padding: 24px;
+    border: 1px solid #888;
+    max-width: 480px;
+    max-height: 100%;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.raf-modal-content h2 {
+    margin-top: 0;
+}
+.raf-close {
+    position: absolute;
+    top: 12px;
+    right: 24px;
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.raf-close:hover,
+.raf-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
